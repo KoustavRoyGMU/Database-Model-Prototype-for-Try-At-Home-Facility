@@ -4,6 +4,7 @@ to make sure that the Data is not redundant, All the constraints are followed pr
 data, to reduce the data latency.
 
 Assumptions:
+
 • We have the Master Data available in the system (In this case I have created the Customer Data Manually, Item Stock Data by analyzing the VS website)
 
 • Customer will not be charged any shipment fees
@@ -11,7 +12,8 @@ Assumptions:
 • All the products in the inventory are eligible to try at home.
 
 
-Requirements: 
+Requirements:
+
 • Customer can order up to 3 products at a time 
 
 • Tax Should be calculated as per the state residence of the customer
